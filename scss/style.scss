@@ -1,0 +1,107 @@
+body {
+    
+    background: rgb(248, 240, 229);
+}
+
+.profilephoto {
+
+    img {
+        height: 266.67px;
+        width: 200px;
+        border-radius: 25px;
+    }
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50vh;
+    
+}
+
+
+
+@import 'typography';
+
+.profilename {
+    font-family: var(--font-family);
+    color: var(--primary-font-color);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.profilelink {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    
+
+}
+
+
+.profilelink1 {
+
+    font-family: var(--font-family);
+    color: var(--primary-font-color);
+    font-size: var(--primary-font-size);
+    background: rgb(218, 192, 163);
+    width: 180px;
+    height: 70px;   
+    text-align: center;
+    line-height: 70px;
+    border-radius: 20px;
+
+}
+
+.profilelink2 {
+
+    font-family: var(--font-family);
+    color: var(--primary-font-color);
+    font-size: var(--primary-font-size);
+    background: rgb(218, 192, 163);
+    width: 180px;
+    height: 70px;   
+    text-align: center;
+    line-height: 70px;
+    border-radius: 20px;
+
+
+}
+
+.profilelink3 {
+
+    font-family: var(--font-family);
+    color: var(--primary-font-color);
+    font-size: var(--primary-font-size);
+    background: rgb(218, 192, 163);
+    width: 180px;
+    height: 70px;   
+    text-align: center;
+    line-height: 70px;
+    border-radius: 20px;
+
+}
+
+.profilelogo {
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+    display: flex;
+
+
+
+}
+
+
+
+
+
+
+
