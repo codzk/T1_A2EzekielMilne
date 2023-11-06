@@ -1,5 +1,7 @@
 .profilelogo {
   display: flex;
+  justify-content: center;
+  margin-top: 30vh;
 }
 .profilelogo img {
   width: 50px;

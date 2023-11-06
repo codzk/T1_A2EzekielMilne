@@ -1,44 +1,40 @@
+a {
+  text-decoration: none;
+  font-family: var(--font-family);
+  color: var(--primary-font-color);
+  font-size: var(--primary-font-size);
+}
+
 .profilelink {
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  height: 300px;
+  justify-content: center;
 }
-
-.profilelink1 {
-  font-family: var(--font-family);
-  color: var(--primary-font-color);
-  font-size: var(--primary-font-size);
+.profilelink .profilelink1 {
   background: var(--secondary-background-color);
+  text-align: center;
   width: 180px;
   height: 70px;
+  line-height: 70px;
+  border-radius: 20px;
+  margin-top: 5vh;
+}
+.profilelink .profilelink2 {
+  background: var(--secondary-background-color);
+  width: 180px;
   text-align: center;
   line-height: 70px;
   border-radius: 20px;
-}
-
-.profilelink2 {
-  font-family: var(--font-family);
-  color: var(--primary-font-color);
-  font-size: var(--primary-font-size);
-  background: var(--secondary-background-color);
   width: 180px;
   height: 70px;
+  margin-top: 20px;
+}
+.profilelink .profilelink3 {
+  background: var(--secondary-background-color);
+  width: 180px;
   text-align: center;
   line-height: 70px;
   border-radius: 20px;
-}
-
-.profilelink3 {
-  font-family: var(--font-family);
-  color: var(--primary-font-color);
-  font-size: var(--primary-font-size);
-  background: var(--secondary-background-color);
   width: 180px;
   height: 70px;
-  text-align: center;
-  line-height: 70px;
-  border-radius: 20px;
+  margin-top: 20px;
 }/*# sourceMappingURL=nav.css.map */
