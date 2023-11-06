@@ -1,0 +1,9 @@
+.home_icon {
+  display: flex;
+  justify-content: center;
+}
+.home_icon img {
+  height: 50px;
+  width: 50px;
+  margin: 50px;
+}/*# sourceMappingURL=homebutton.css.map */

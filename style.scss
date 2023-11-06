@@ -1,10 +1,4 @@
 
-body {
-    
-    background-color: var(--primary-background-color);
-   
-}
-
 
 
 
@@ -13,7 +7,38 @@ body {
 
 
 
-@import "./scss/layouts/header.css";
+
+
+// profile photo and name
+
+.profilephoto {
+
+    img {
+        height: 266.67px;
+        width: 200px;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+
+    display: flex;
+    justify-content: center;
+   
+
+
+    
+}
+
+.profilename {
+    
+    font-family: var(--font-family);
+    color: var(--primary-font-color);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
 
 
 
@@ -22,9 +47,86 @@ body {
 
 
 
-@import "./scss/layouts/nav.css";
 
-@import "./scss/layouts/footer.css";
+
+// home navigation
+
+a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    color: var(--primary-font-color);
+    font-size: var(--primary-font-size);
+}
+
+.profilelink {
+    
+   display: flex;
+   justify-content: center;
+   
+  
+
+
+   
+   .profilelink1 {
+
+        background:var(--secondary-background-color);
+        text-align: center;
+        width: 180px;
+        height: 70px; 
+        line-height: 70px;
+        border-radius: 20px;
+        margin-top: 5vh;
+
+
+    }
+
+    .profilelink2 {
+
+        background: var(--secondary-background-color);
+        width: 180px; 
+        text-align: center;
+        line-height: 70px;
+        border-radius: 20px;
+        width: 180px;
+        height: 70px; 
+        margin-top: 20px;
+        
+
+
+    }
+
+    .profilelink3 {
+
+
+        background: var(--secondary-background-color);
+        width: 180px;
+        text-align: center;
+        line-height: 70px;
+        border-radius: 20px;
+        width: 180px;
+        height: 70px; 
+        margin-top: 20px;
+
+
+    }
+   
+  
+}
+
+// home profile
+
+@import "./scss/components/accountlinks.css"
+
+
+
+
+
+
+
+
+
+
+
 
 
 

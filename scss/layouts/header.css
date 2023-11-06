@@ -1,18 +1,19 @@
-.profilephoto {
-  display: flex;
-  justify-content: center;
+header {
+  margin: 10px;
 }
-.profilephoto img {
-  height: 266.67px;
-  width: 200px;
-  border-radius: 20px;
-  margin-top: 10px;
-}
-
-.profilename {
+header h1 {
   font-family: var(--font-family);
   color: var(--primary-font-color);
-  font-size: 12px;
+  background: var(--secondary-background-color);
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 20px;
+  height: 50px;
+  background-attachment: fixed;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=header.css.map */

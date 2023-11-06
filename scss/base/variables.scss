@@ -7,3 +7,15 @@
 :root {
     --secondary-background-color: rgb(234, 219, 200);
 }
+
+:root {
+    --tertiary-background-color: rgb(218, 192, 163);
+    
+}
+
+body {
+    
+    background-color: var(--primary-background-color);
+    height: 100vh;
+    
+}
