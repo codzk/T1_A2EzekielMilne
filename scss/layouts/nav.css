@@ -1,39 +1,3 @@
-body {
-  background: rgb(248, 240, 229);
-}
-
-.profilephoto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-}
-.profilephoto img {
-  height: 266.67px;
-  width: 200px;
-  border-radius: 25px;
-}
-
-:root {
-  --font-family: "Jockey One", sans-serif;
-}
-
-:root {
-  --primary-font-color: rgb(15, 44, 89);
-}
-
-:root {
-  --primary-font-size: 20px;
-}
-
-.profilename {
-  font-family: var(--font-family);
-  color: var(--primary-font-color);
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-}
-
 .profilelink {
   display: flex;
   flex-wrap: nowrap;
@@ -47,7 +11,7 @@ body {
   font-family: var(--font-family);
   color: var(--primary-font-color);
   font-size: var(--primary-font-size);
-  background: rgb(218, 192, 163);
+  background: var(--secondary-background-color);
   width: 180px;
   height: 70px;
   text-align: center;
@@ -59,7 +23,7 @@ body {
   font-family: var(--font-family);
   color: var(--primary-font-color);
   font-size: var(--primary-font-size);
-  background: rgb(218, 192, 163);
+  background: var(--secondary-background-color);
   width: 180px;
   height: 70px;
   text-align: center;
@@ -71,18 +35,10 @@ body {
   font-family: var(--font-family);
   color: var(--primary-font-color);
   font-size: var(--primary-font-size);
-  background: rgb(218, 192, 163);
+  background: var(--secondary-background-color);
   width: 180px;
   height: 70px;
   text-align: center;
   line-height: 70px;
   border-radius: 20px;
-}
-
-.profilelogo {
-  display: flex;
-}
-.profilelogo img {
-  width: 50px;
-  height: 50px;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=nav.css.map */

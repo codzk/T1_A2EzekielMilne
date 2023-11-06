@@ -1,0 +1,19 @@
+.profilephoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.profilephoto img {
+  height: 266.67px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.profilename {
+  font-family: var(--font-family);
+  color: var(--primary-font-color);
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=header.css.map */
