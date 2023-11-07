@@ -1,6 +1,6 @@
+@import "./scss/layouts/footer.css";
 @import "/scss/base/variables.css";
 @import "/scss/base/typography.css";
-@import "./scss/components/accountlinks.css";
 .profilephoto {
   display: flex;
   justify-content: center;

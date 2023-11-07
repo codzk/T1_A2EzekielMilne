@@ -1,8 +1,8 @@
 @import "/scss/base/variables.css";
 @import "/scss/components/homebutton.css";
-@import "/scss/components/accountlinks.css";
 @import "/scss/base/typography.css";
 @import "/scss/layouts/header.css";
+@import "../layouts/footer.css";
 section .work {
   display: flex;
   flex-wrap: wrap;
@@ -43,6 +43,8 @@ section .resume p {
   font-family: var(--font-family);
   color: var(--primary-font-color);
   text-indent: 20px;
+  text-align: center;
+  margin: 50px;
 }
 section .resume button {
   display: flex;
