@@ -16,8 +16,7 @@
   font-family: var(--font-family);
   color: var(--primary-font-color);
   font-size: 12px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 a {
@@ -30,6 +29,7 @@ a {
 .profilelink {
   display: flex;
   justify-content: center;
+  height: 400px;
 }
 .profilelink .profilelink1 {
   background: var(--secondary-background-color);

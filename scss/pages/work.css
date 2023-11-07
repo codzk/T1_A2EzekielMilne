@@ -42,4 +42,18 @@ section .resume h2 {
 section .resume p {
   font-family: var(--font-family);
   color: var(--primary-font-color);
+  text-indent: 20px;
+}
+section .resume button {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  padding: 30px;
+  border-radius: 20px;
+  margin: auto;
+  cursor: pointer;
+  transition: 5s;
+}
+section .resume button:hover {
+  background-color: var(--tertiary-background-color);
 }/*# sourceMappingURL=work.css.map */
