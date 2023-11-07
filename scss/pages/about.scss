@@ -1,59 +1,15 @@
 @import "../base/variables.css";
 
-
-body {
-    
-    background-color: var(--primary-background-color);
-    height: 100vh;
-    
-}
-
-.home_icon {
-
-    img{
-
-        height: 50px;
-        width: 50px;
-        margin: 50px;
-
-    }
-
-    display: flex;
-    justify-content: center
-    
-
-
-}
+@import "../components/homebutton.css";
 
 @import "../base/typography.css";
 
+@import "../layouts/header.css";
+
+@import "../components/accountlinks.css";
 
 
 
-header {
-
-    h1 {
-
-    font-family: var(--font-family);
-    color: var(--primary-font-color);
-    background:var(--secondary-background-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 30px;
-    padding: 20px;
-    margin: 50px;
-    border-radius: 20px;
-    height: 50px;
-    background-attachment: fixed;
-    flex-wrap: wrap;
-
-    }
-
-    margin: 10px;
-
-}
 
 section {
 
@@ -76,6 +32,7 @@ section {
             margin-top: 100px;
             text-align: center;
             
+            
 
         }
         
@@ -95,7 +52,7 @@ section {
             font-family: var(--font-family);
             color: var(--primary-font-color);
             background: var(--tertiary-background-color);
-            margin-bottom: 100px;
+            margin-bottom: 50px;
             border-radius: 10px;
             text-align: center;
 
@@ -131,18 +88,5 @@ section {
     }
 }
 
-footer {
-    .profilelogo {
-
-        display: flex;
-        justify-content: center;
 
 
-        .profilelogo1 {
-
-        }
-        .profilelogo2 {
-
-        }
-    }
-}

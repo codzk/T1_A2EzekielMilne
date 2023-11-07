@@ -1,12 +1,86 @@
-@import "../base/variables.css";
+@import "/scss/base/variables.css";
+@import "/scss/components/homebutton.css";
+@import "/scss/components/accountlinks.css";
+@import "/scss/base/typography.css";
+@import "/scss/layouts/header.css";
 
-@import "../components/homebutton.css";
 
-@import "../base/typography.css";
 
-@import "../layouts/header.css";
 
-@import "../components/accountlinks.css"
+section {
+    
+    .work {
+        
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 25px;
+        margin-right: 25px;
+        
+
+        .work1 {
+
+            font-family: var(--font-family);
+            color: var(--primary-font-color);
+            background: var(--tertiary-background-color);
+            margin-bottom: 50px;
+            border-radius: 10px;
+            margin-top: 100px;
+            text-align: center;
+
+
+
+        }
+        .work2 {
+
+            font-family: var(--font-family);
+            color: var(--primary-font-color);
+            background: var(--tertiary-background-color);
+            margin-bottom: 50px;
+            border-radius: 10px;
+            margin-top: 100px;
+            margin: auto;
+            text-align: center;
+
+        }
+
+        
+        
+    }
+
+    .resume {
+
+        
+        
+        
+        
+
+        h2 {
+            font-family: var(--font-family);
+            color: var(--primary-font-color);
+            background: var(--secondary-background-color);
+            margin: auto;
+            padding: 50px;
+            text-align: center;
+            margin-top: 50px;
+            border-radius: 20px;
+            max-width: 300px;
+           
+
+        }
+
+        p {
+
+            font-family: var(--font-family);
+            color: var(--primary-font-color);
+        }
+
+        
+
+    
+    }
+}
+
+
 
 
 
