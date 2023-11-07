@@ -8,6 +8,17 @@ section .aboutme {
   flex-wrap: wrap;
   margin-left: 25px;
   margin-right: 25px;
+  margin: 50px;
+}
+section .aboutme p {
+  margin: 50px;
+  text-align: justify;
+  text-indent: 20px;
+}
+@media screen and (max-width: 400px) {
+  section .aboutme p {
+    margin: 10px;
+  }
 }
 section .aboutme .introduction {
   font-family: var(--font-family);

@@ -1,13 +1,8 @@
 @import "../base/variables.css";
-
 @import "../components/homebutton.css";
-
 @import "../base/typography.css";
-
 @import "../layouts/header.css";
-
 @import "../layouts/footer.css";
-
 
 
 
@@ -21,8 +16,26 @@ section {
         flex-wrap: wrap;
         margin-left: 25px;
         margin-right: 25px;
+        margin: 50px;
 
-        
+
+        p {
+            margin: 50px;
+            text-align: justify;
+            text-indent: 20px;
+        }
+// adjust margin for small or phone screen
+
+        @media screen and (max-width: 400px) {
+            
+            p{
+             margin: 10px;
+            }
+            
+            
+         }
+
+       
 
         .introduction {
 
@@ -89,6 +102,7 @@ section {
        
     }
 }
+
 
 
 

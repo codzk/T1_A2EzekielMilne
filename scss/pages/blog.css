@@ -1,1 +1,53 @@
-/*# sourceMappingURL=blog.css.map */
+@import "/scss/base/variables.css";
+@import "/scss/components/homebutton.css";
+@import "/scss/base/typography.css";
+@import "/scss/layouts/header.css";
+@import "../layouts/footer.css";
+section .blog {
+  display: flex;
+  flex-direction: column;
+}
+section .blog .blog1 {
+  font-family: var(--font-family);
+  color: var(--primary-font-color);
+  background: var(--tertiary-background-color);
+  padding: 20px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+section .blog .blog2 {
+  font-family: var(--font-family);
+  color: var(--primary-font-color);
+  background: var(--tertiary-background-color);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+section .blog .blog3 {
+  font-family: var(--font-family);
+  color: var(--primary-font-color);
+  background: var(--tertiary-background-color);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+section .blog .blog4 {
+  font-family: var(--font-family);
+  color: var(--primary-font-color);
+  background: var(--tertiary-background-color);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+section .blog .blog5 {
+  background: var(--tertiary-background-color);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}/*# sourceMappingURL=blog.css.map */
