@@ -10,7 +10,7 @@ section .aboutme {
   margin: 50px;
 }
 section .aboutme p {
-  margin: 50px;
+  margin: 25px 50px 25px 50px;
   text-align: justify;
   text-indent: 30px;
 }

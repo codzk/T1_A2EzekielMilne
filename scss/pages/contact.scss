@@ -1,0 +1,59 @@
+@import "../base/variables.css";
+@import "../components/homebutton.css";
+@import "../base/typography.css";
+@import "../layouts/header.css";
+@import "../layouts/footer.css";
+
+
+
+section {
+
+    
+    
+    .container {
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        margin: 50px;
+
+        .name {
+
+            font-family: var(--font-family);
+            color: var(--primary-font-color);
+            margin-top: 50px;
+
+        }
+
+        .email {
+
+            font-family: var(--font-family);
+            color: var(--primary-font-color);
+            margin-top: 50px;
+
+        }
+
+        .message {
+            
+            font-family: var(--font-family);
+            color: var(--primary-font-color);
+            margin-top: 30px;
+
+        }
+    }
+
+
+
+        h2 {
+            font-family: var(--font-family);
+            color: var(--primary-font-color);
+        }
+
+
+    
+    
+   
+}
+

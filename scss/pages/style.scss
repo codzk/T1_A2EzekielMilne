@@ -1,5 +1,5 @@
 
-@import "./scss/layouts/footer.css";
+@import "../layouts/footer.css";
 
 
 @import "/scss/base/variables.css";
@@ -60,10 +60,11 @@ a {
 
 .profilelink {
     
-   display: flex;
-   justify-content: center;
-   height: 400px;
-   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    
   
 
 
@@ -72,11 +73,10 @@ a {
 
         background:var(--secondary-background-color);
         text-align: center;
-        width: 180px;
-        height: 70px; 
         line-height: 70px;
         border-radius: 20px;
-        margin-top: 5vh;
+        margin-top: 20px;
+        padding: 10px 100px 10px 100px ;
 
 
     }
@@ -84,13 +84,12 @@ a {
     .profilelink2 {
 
         background: var(--secondary-background-color);
-        width: 180px; 
         text-align: center;
         line-height: 70px;
         border-radius: 20px;
-        width: 180px;
-        height: 70px; 
         margin-top: 20px;
+        padding: 10px 100px 10px 100px ;
+
         
 
 
@@ -100,13 +99,29 @@ a {
 
 
         background: var(--secondary-background-color);
-        width: 180px;
         text-align: center;
         line-height: 70px;
         border-radius: 20px;
-        width: 180px;
-        height: 70px; 
         margin-top: 20px;
+        padding: 10px 100px 10px 100px ;
+
+        
+
+
+    }
+
+    .profilelink4 {
+
+
+        background: var(--secondary-background-color);
+        text-align: center;
+        line-height: 70px;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-bottom:50px;
+        padding: 10px 100px 10px 100px ;
+        
+        
 
 
     }
