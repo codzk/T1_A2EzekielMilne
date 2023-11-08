@@ -5,49 +5,70 @@
 @import "../layouts/footer.css";
 section .blog {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 50px;
+}
+section .blog p {
+  font-style: italic;
+  text-align: justify;
+  text-indent: 30px;
+  margin: 50px;
+}
+@media screen and (max-width: 400px) {
+  section .blog p {
+    margin: 10px;
+  }
+}
+section .blog img {
+  width: 100%;
+  font-family: var(--font-family);
+  color: var(--primary-font-color);
+  max-width: 75vh;
+  margin-top: 30px;
 }
 section .blog .blog1 {
   font-family: var(--font-family);
   color: var(--primary-font-color);
   background: var(--tertiary-background-color);
-  padding: 20px;
-  text-align: center;
-  margin-top: 100px;
   margin-bottom: 50px;
-  border-radius: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-align: center;
 }
 section .blog .blog2 {
   font-family: var(--font-family);
   color: var(--primary-font-color);
   background: var(--tertiary-background-color);
-  padding: 20px;
-  text-align: center;
   margin-bottom: 50px;
-  border-radius: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-align: center;
 }
 section .blog .blog3 {
   font-family: var(--font-family);
   color: var(--primary-font-color);
   background: var(--tertiary-background-color);
-  padding: 20px;
-  text-align: center;
   margin-bottom: 50px;
-  border-radius: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-align: center;
 }
 section .blog .blog4 {
   font-family: var(--font-family);
   color: var(--primary-font-color);
   background: var(--tertiary-background-color);
-  padding: 20px;
-  text-align: center;
   margin-bottom: 50px;
-  border-radius: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-align: center;
 }
 section .blog .blog5 {
+  font-family: var(--font-family);
+  color: var(--primary-font-color);
   background: var(--tertiary-background-color);
-  padding: 20px;
-  text-align: center;
   margin-bottom: 50px;
-  border-radius: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-align: center;
 }/*# sourceMappingURL=blog.css.map */
