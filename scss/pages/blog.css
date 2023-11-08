@@ -15,7 +15,7 @@ section .blog p {
   text-indent: 30px;
   margin: 50px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
   section .blog p {
     margin: 10px;
   }

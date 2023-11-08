@@ -26,6 +26,11 @@ section .container .message {
   color: var(--primary-font-color);
   margin-top: 30px;
 }
+section .container .submit {
+  font-family: var(--font-family);
+  color: var(--primary-font-color);
+  margin-top: 30px;
+}
 section h2 {
   font-family: var(--font-family);
   color: var(--primary-font-color);

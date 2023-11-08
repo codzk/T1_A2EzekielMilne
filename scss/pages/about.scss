@@ -6,7 +6,7 @@
 
 
 
-
+// title styles.
 
 section {
 
@@ -26,9 +26,9 @@ section {
             
         }
         
-// adjust margin for small or phone screen
+    // adjust margin for small or phone screen
 
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 430px) {
             
             p{
              margin: 10px;
@@ -37,7 +37,7 @@ section {
             
          }
 
-       
+    //   style for each content.
 
         .introduction {
 
