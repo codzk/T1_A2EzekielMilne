@@ -8,7 +8,7 @@
 
 section {
 
-    // contact and submit details page.
+    // contact and submit details page component.
     
     .container {
 
@@ -43,6 +43,7 @@ section {
 
         }
         
+        // adjust form with increased space for mobile/phone display
         @media screen and (max-width:400px) {
 
             .message {
@@ -65,11 +66,7 @@ section {
 
 
 
-        h2 {
-            font-family: var(--font-family);
-            color: var(--primary-font-color);
-        }
-
+     
 
     
     
