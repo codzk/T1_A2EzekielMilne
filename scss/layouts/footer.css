@@ -1,7 +1,7 @@
 footer .accountlinks {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  padding-bottom: 20px;
 }
 footer .accountlinks img {
   width: 50px;

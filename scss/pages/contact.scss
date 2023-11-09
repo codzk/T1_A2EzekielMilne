@@ -29,7 +29,7 @@ section {
 
         .email {
 
-            font-family: var(--font-family);
+            font-family: var(--font-family);    
             color: var(--primary-font-color);
             margin-top: 50px;
 
@@ -42,6 +42,20 @@ section {
             margin-top: 30px;
 
         }
+        
+        @media screen and (max-width:400px) {
+
+            .message {
+                display: block;
+            }
+
+            #message {
+                padding: 50px;
+            }
+            
+        }
+
+        
         .submit {
             font-family: var(--font-family);
             color: var(--primary-font-color);
