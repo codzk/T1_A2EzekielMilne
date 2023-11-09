@@ -112,8 +112,13 @@ section {
             margin: auto;
             cursor: pointer;
             transition: 5s;
+            margin-bottom: 30px;
             
 
+        }
+        
+        a {
+            text-decoration: none;
         }
 
         button:hover {

@@ -64,6 +64,10 @@ section .resume button {
   margin: auto;
   cursor: pointer;
   transition: 5s;
+  margin-bottom: 30px;
+}
+section .resume a {
+  text-decoration: none;
 }
 section .resume button:hover {
   background-color: var(--tertiary-background-color);
